@@ -1,0 +1,44 @@
+aside.sidebar 
+      .sidebar__logo
+        .sidebar__logo-img 
+          img(src="@img/favicone.png", alt="logo")
+        h1.sidebar__logo-text Dashboard 
+      .wrapper_menu 
+        nav.sidebar__menu
+          ul.sidebar__menu_list
+            li.sidebar__menu_items
+              a.sidebar__menu_link(href="#") 
+                .sidebar__menu_link_icon.sidebar__menu_link_icon_1
+                span.sidebar__menu_link_text Dashboard
+                //- .sidebar__menu_link_chevron
+            li.sidebar__menu_items
+              a.sidebar__menu_link(href="#") 
+                .sidebar__menu_link_icon.sidebar__menu_link_icon_2
+                span.sidebar__menu_link_text Product
+                .sidebar__menu_link_chevron
+            li.sidebar__menu_items
+              a.sidebar__menu_link.sidebar__menu_link--active(href="#")
+                .sidebar__menu_link_icon.sidebar__menu_link_icon_3 
+                span.sidebar__menu_link_text Customers
+                .sidebar__menu_link_chevron--active
+            li.sidebar__menu_items
+              a.sidebar__menu_link(href="#") 
+                .sidebar__menu_link_icon.sidebar__menu_link_icon_4
+                span.sidebar__menu_link_text Income
+                .sidebar__menu_link_chevron
+            li.sidebar__menu_items
+              a.sidebar__menu_link(href="#") 
+                .sidebar__menu_link_icon.sidebar__menu_link_icon_5
+                span.sidebar__menu_link_text Promote
+                .sidebar__menu_link_chevron
+            li.sidebar__menu_items
+              a.sidebar__menu_link(href="#")
+                .sidebar__menu_link_icon.sidebar__menu_link_icon_6
+                span.sidebar__menu_link_text Help
+                .sidebar__menu_link_chevron
+        .sidebar__user 
+          .sidebar__user_foto_vrapper 
+            img(src="@img/user.png", alt="User foto")
+          .sidebar__user_text
+            h4.sidebar__user_name Evano 
+            p.sidebar__user_job Project Manager

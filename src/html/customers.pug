@@ -1,0 +1,122 @@
+.main 
+    h2.main__header Hello Evano &#128075;,
+    .main__content
+        .main__content_header 
+            .main__content_title 
+                h4.main__content_title_first All Customers
+                p.main__content_title_subtitle Active Members
+            form.search
+                <button class="search__button" type="submit"></button>
+                <input class="search__input" type="text" placeholder="Search" autofocus >
+        .main__content_inner 
+            table.table_customers
+                thead.table_customers__head
+                    tr.table_customers__row 
+                        th.table_customers__cell Customer Name
+                        th.table_customers__cell Company
+                        th.table_customers__cell Phone Number
+                        th.table_customers__cell Email
+                        th.table_customers__cell Country
+                        th.table_customers__cell Status 
+                tbody.table_customers__body 
+                    tr.table_customers__row 
+                        td.table_customers__cell Jane Cooper
+                        td.table_customers__cell Microsoft
+                        td.table_customers__cell 
+                            a.table_customers__phone(href="tel:(225)555-0118") (225) 555-0118
+                        td.table_customers__cell
+                            a.table_customers__email(href="mailto:jane@microsoft.com") jane@microsoft.com
+                        td.table_customers__cell  United States
+                        td.table_customers__cell
+                            .table_customers__status.table_customers__status--active Active
+                    tr.table_customers__row 
+                        td.table_customers__cell Floyd Miles
+                        td.table_customers__cell Yahoo
+                        td.table_customers__cell
+                            a.table_customers__phone(href="tel:(205)555-0100") (205) 555-0100
+                        td.table_customers__cell
+                            a.table_customers__email(href="mailto:floyd@yahoo.com") floyd@yahoo.com
+                        td.table_customers__cell  Kiribati
+                        td.table_customers__cell
+                            .table_customers__status.table_customers__status--inactive Inactive
+                    tr.table_customers__row 
+                        td.table_customers__cell Ronald Richards
+                        td.table_customers__cell Adobe
+                        td.table_customers__cell
+                            a.table_customers__phone(href="tel:(302)555-0107") (302) 555-0107
+                        td.table_customers__cell
+                            a.table_customers__email(href="mailto:ronald@adobe.com") ronald@adobe.com
+                        td.table_customers__cell  Israel
+                        td.table_customers__cell
+                            .table_customers__status.table_customers__status--inactive Inactive
+                    tr.table_customers__row 
+                        td.table_customers__cell Marvin McKinney
+                        td.table_customers__cell Tesla
+                        td.table_customers__cell 
+                            a.table_customers__phone(href="tel:(252)555-0126") (252) 555-0126
+                        td.table_customers__cell
+                            a.table_customers__email(href="mailto:marvin@tesla.com") marvin@tesla.com
+                        td.table_customers__cell  Iran
+                        td.table_customers__cell
+                            .table_customers__status.table_customers__status--active Active
+                    tr.table_customers__row 
+                        td.table_customers__cell  Jerome Bell
+                        td.table_customers__cell  Google
+                        td.table_customers__cell
+                            a.table_customers__phone(href="tel:(629)555-0129") (629) 555-0129
+                        td.table_customers__cell
+                            a.table_customers__email(href="mailto:jerome@google.com") jerome@google.com
+                        td.table_customers__cell  Réunion
+                        td.table_customers__cell
+                            .table_customers__status.table_customers__status--active Active
+                    tr.table_customers__row 
+                        td.table_customers__cell Kathryn Murphy
+                        td.table_customers__cell Microsoft
+                        td.table_customers__cell
+                            a.table_customers__phone(href="tel:(406)555-0120") (406) 555-0120
+                        td.table_customers__cell
+                            a.table_customers__email(href="mailto:kathryn@microsoft.com") kathryn@microsoft.com
+                        td.table_customers__cell  Curaçao
+                        td.table_customers__cell
+                            .table_customers__status.table_customers__status--active Active
+                    tr.table_customers__row 
+                        td.table_customers__cell Jacob Jones
+                        td.table_customers__cell Yahoo
+                        td.table_customers__cell
+                            a.table_customers__phone(href="tel:(208)555-0112") (208) 555-0112
+                        td.table_customers__cell
+                            a.table_customers__email(href="mailto:jacob@yahoo.com") jacob@yahoo.com
+                        td.table_customers__cell  Brazil
+                        td.table_customers__cell
+                            .table_customers__status.table_customers__status--active Active
+                    tr.table_customers__row 
+                        td.table_customers__cell Kristin Watson
+                        td.table_customers__cell Facebook
+                        td.table_customers__cell
+                            a.table_customers__phone(href="tel:(704)555-0127") (704) 555-0127
+                        td.table_customers__cell
+                            a.table_customers__email(href="mailto:kristin@facebook.com") kristin@facebook.com
+                        td.table_customers__cell  Åland Islands
+                        td.table_customers__cell
+                            .table_customers__status.table_customers__status--inactive Inactive
+        footer.main__content_footer.footer 
+            .footer__text Showing data 1 to 8 of  256K entries
+            .footer__pagination
+                ul.footer__pagination-list 
+                    li.footer__pagination_item 
+                        a.footer__pagination_link(href="#") &lt;
+                    li.footer__pagination_item.footer__pagination_item--active 
+                        a.footer__pagination_link(href="#")  1
+                    li.footer__pagination_item
+                        a.footer__pagination_link(href="#")  2
+                    li.footer__pagination_item 
+                        a.footer__pagination_link(href="#")  3
+                    li.footer__pagination_item 
+                        a.footer__pagination_link(href="#")  4
+                    li.footer__pagination_item 
+                        a.footer__pagination_link(href="#")  ...
+                    li.footer__pagination_item 
+                        a.footer__pagination_link(href="#")  40
+                    li.footer__pagination_item 
+                        a.footer__pagination_link(href="#") &gt;
+
